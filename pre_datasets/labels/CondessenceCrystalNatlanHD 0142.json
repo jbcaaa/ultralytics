@@ -1,0 +1,68 @@
+{
+  "version": "2.4.4",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "StarPicking",
+      "score": null,
+      "points": [
+        [
+          667.0175438596492,
+          416.7543859649123
+        ],
+        [
+          750.3508771929825,
+          416.7543859649123
+        ],
+        [
+          750.3508771929825,
+          490.43859649122805
+        ],
+        [
+          667.0175438596492,
+          490.43859649122805
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          33.684210526315866,
+          206.2280701754386
+        ],
+        [
+          838.9473684210526,
+          206.2280701754386
+        ],
+        [
+          838.9473684210526,
+          768.5087719298244
+        ],
+        [
+          33.684210526315866,
+          768.5087719298244
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "..\\images\\CondessenceCrystalNatlanHD 0142.jpg",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1920
+}

@@ -1,0 +1,329 @@
+{
+  "version": "2.4.4",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          781.9298245614035,
+          162.3684210526316
+        ],
+        [
+          858.2456140350878,
+          162.3684210526316
+        ],
+        [
+          858.2456140350878,
+          283.42105263157896
+        ],
+        [
+          781.9298245614035,
+          283.42105263157896
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          759.1228070175439,
+          225.52631578947367
+        ],
+        [
+          794.2105263157895,
+          225.52631578947367
+        ],
+        [
+          794.2105263157895,
+          255.35087719298244
+        ],
+        [
+          759.1228070175439,
+          255.35087719298244
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "IronChunk",
+      "score": null,
+      "points": [
+        [
+          764.3859649122808,
+          164.12280701754386
+        ],
+        [
+          817.8947368421053,
+          164.12280701754386
+        ],
+        [
+          817.8947368421053,
+          241.3157894736842
+        ],
+        [
+          764.3859649122808,
+          241.3157894736842
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "IronChunk",
+      "score": null,
+      "points": [
+        [
+          713.5087719298245,
+          191.31578947368422
+        ],
+        [
+          774.9122807017544,
+          191.31578947368422
+        ],
+        [
+          774.9122807017544,
+          272.89473684210526
+        ],
+        [
+          713.5087719298245,
+          272.89473684210526
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "IronChunk",
+      "score": null,
+      "points": [
+        [
+          667.0175438596492,
+          235.1754385964912
+        ],
+        [
+          744.2105263157895,
+          235.1754385964912
+        ],
+        [
+          744.2105263157895,
+          290.4385964912281
+        ],
+        [
+          667.0175438596492,
+          290.4385964912281
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "IronChunk",
+      "score": null,
+      "points": [
+        [
+          621.4035087719299,
+          268.5087719298246
+        ],
+        [
+          695.0877192982457,
+          268.5087719298246
+        ],
+        [
+          695.0877192982457,
+          374.64912280701753
+        ],
+        [
+          621.4035087719299,
+          374.64912280701753
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          660.8771929824562,
+          262.3684210526316
+        ],
+        [
+          765.2631578947369,
+          262.3684210526316
+        ],
+        [
+          765.2631578947369,
+          379.03508771929825
+        ],
+        [
+          660.8771929824562,
+          379.03508771929825
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "StarPicking",
+      "score": null,
+      "points": [
+        [
+          681.0526315789474,
+          368.50877192982455
+        ],
+        [
+          710.8771929824562,
+          368.50877192982455
+        ],
+        [
+          710.8771929824562,
+          390.43859649122805
+        ],
+        [
+          681.0526315789474,
+          390.43859649122805
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "StarPicking",
+      "score": null,
+      "points": [
+        [
+          755.6140350877193,
+          343.0701754385965
+        ],
+        [
+          793.3333333333334,
+          343.0701754385965
+        ],
+        [
+          793.3333333333334,
+          377.280701754386
+        ],
+        [
+          755.6140350877193,
+          377.280701754386
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "StarPicking",
+      "score": null,
+      "points": [
+        [
+          670.5263157894738,
+          237.80701754385964
+        ],
+        [
+          708.2456140350878,
+          237.80701754385964
+        ],
+        [
+          708.2456140350878,
+          270.2631578947369
+        ],
+        [
+          670.5263157894738,
+          270.2631578947369
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "StarPicking",
+      "score": null,
+      "points": [
+        [
+          724.0350877192983,
+          201.8421052631579
+        ],
+        [
+          751.2280701754386,
+          201.8421052631579
+        ],
+        [
+          751.2280701754386,
+          228.1578947368421
+        ],
+        [
+          724.0350877192983,
+          228.1578947368421
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "..\\images\\CondessenceCrystalNatlanHD 0126.jpg",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1920
+}

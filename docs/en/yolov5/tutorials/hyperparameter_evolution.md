@@ -25,7 +25,7 @@ YOLOv5 has about 30 hyperparameters used for various training settings. These ar
 ```yaml
 # YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
 # Hyperparameters for low-augmentation COCO training from scratch
-# python train.py --batch 64 --cfg yolov5n6.yaml --weights '' --data coco.yaml --img 640 --epochs 300 --linear
+# python -3-train.py --batch 64 --cfg yolov5n6.yaml --weights '' --data coco.yaml --img 640 --epochs 300 --linear
 # See tutorials for hyperparameter evolution https://github.com/ultralytics/yolov5#tutorials
 
 lr0: 0.01 # initial learning rate (SGD=1E-2, Adam=1E-3)
@@ -75,27 +75,27 @@ def fitness(x):
 Evolution is performed about a base scenario which we seek to improve upon. The base scenario in this example is [finetuning](https://www.ultralytics.com/glossary/fine-tuning) COCO128 for 10 [epochs](https://www.ultralytics.com/glossary/epoch) using pretrained YOLOv5s. The base scenario training command is:
 
 ```bash
-python train.py --epochs 10 --data coco128.yaml --weights yolov5s.pt --cache
+python -3-train.py --epochs 10 --data coco128.yaml --weights yolov5s.pt --cache
 ```
 
 To evolve hyperparameters **specific to this scenario**, starting from our initial values defined in **Section 1.**, and maximizing the fitness defined in **Section 2.**, append `--evolve`:
 
 ```bash
 # Single-GPU
-python train.py --epochs 10 --data coco128.yaml --weights yolov5s.pt --cache --evolve
+python -3-train.py --epochs 10 --data coco128.yaml --weights yolov5s.pt --cache --evolve
 
 # Multi-GPU
 for i in 0 1 2 3 4 5 6 7; do
   sleep $(expr 30 \* $i) &&  # 30-second delay (optional)
   echo 'Starting GPU '$i'...' &&
-  nohup python train.py --epochs 10 --data coco128.yaml --weights yolov5s.pt --cache --device $i --evolve > evolve_gpu_$i.log &
+  nohup python -3-train.py --epochs 10 --data coco128.yaml --weights yolov5s.pt --cache --device $i --evolve > evolve_gpu_$i.log &
 done
 
 # Multi-GPU bash-while (not recommended)
 for i in 0 1 2 3 4 5 6 7; do
   sleep $(expr 30 \* $i) &&  # 30-second delay (optional)
   echo 'Starting GPU '$i'...' &&
-  "$(while true; do nohup python train.py... --device $i --evolve 1 > evolve_gpu_$i.log; done)" &
+  "$(while true; do nohup python -3-train.py... --device $i --evolve 1 > evolve_gpu_$i.log; done)" &
 done
 ```
 

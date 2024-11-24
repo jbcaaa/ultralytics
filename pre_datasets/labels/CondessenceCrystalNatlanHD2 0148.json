@@ -1,0 +1,185 @@
+{
+  "version": "2.4.4",
+  "flags": {},
+  "shapes": [
+    {
+      "kie_linking": [],
+      "label": "CondessenceCrystal",
+      "score": 0.11285701394081116,
+      "points": [
+        [
+          1078.421052631579,
+          140.42092895507812
+        ],
+        [
+          1130.1754385964912,
+          140.42092895507812
+        ],
+        [
+          1130.1754385964912,
+          190.43859649122805
+        ],
+        [
+          1078.421052631579,
+          190.43859649122805
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          1040.701754385965,
+          165.87719298245614
+        ],
+        [
+          1096.842105263158,
+          165.87719298245614
+        ],
+        [
+          1096.842105263158,
+          228.1578947368421
+        ],
+        [
+          1040.701754385965,
+          228.1578947368421
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          1007.1471471471472,
+          210.8108108108108
+        ],
+        [
+          1055.7957957957958,
+          210.8108108108108
+        ],
+        [
+          1055.7957957957958,
+          272.67267267267266
+        ],
+        [
+          1007.1471471471472,
+          272.67267267267266
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          934.4744744744745,
+          200.6006006006006
+        ],
+        [
+          987.3273273273273,
+          200.6006006006006
+        ],
+        [
+          987.3273273273273,
+          241.74174174174175
+        ],
+        [
+          934.4744744744745,
+          241.74174174174175
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          914.0540540540541,
+          236.33633633633633
+        ],
+        [
+          987.927927927928,
+          236.33633633633633
+        ],
+        [
+          987.927927927928,
+          296.996996996997
+        ],
+        [
+          914.0540540540541,
+          296.996996996997
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          851.891891891892,
+          214.71471471471472
+        ],
+        [
+          916.7567567567568,
+          214.71471471471472
+        ],
+        [
+          916.7567567567568,
+          290.990990990991
+        ],
+        [
+          851.891891891892,
+          290.990990990991
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "CondessenceCrystalNatlanHD2 0148.jpg",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1920,
+  "description": ""
+}

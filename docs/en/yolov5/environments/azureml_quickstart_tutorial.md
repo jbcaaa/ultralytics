@@ -58,7 +58,7 @@ pip install onnx>=1.10.0
 Train the YOLOv5 model:
 
 ```bash
-python train.py
+python -3-train.py
 ```
 
 Validate the model for [Precision](https://www.ultralytics.com/glossary/precision), [Recall](https://www.ultralytics.com/glossary/recall), and mAP

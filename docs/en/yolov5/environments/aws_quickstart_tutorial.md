@@ -68,7 +68,7 @@ With your environment set up, you can begin training, validating, performing inf
 
 ```bash
 # Train a model on your data
-python train.py
+python -3-train.py
 
 # Validate the trained model for Precision, Recall, and mAP
 python val.py --weights yolov5s.pt

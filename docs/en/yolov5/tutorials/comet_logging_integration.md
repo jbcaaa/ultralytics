@@ -51,7 +51,7 @@ project_name=<Your Comet Project Name> # This will default to 'yolov5'
 
 ```shell
 # Train YOLOv5s on COCO128 for 5 epochs
-python train.py --img 640 --batch 16 --epochs 5 --data coco128.yaml --weights yolov5s.pt
+python -3-train.py --img 640 --batch 16 --epochs 5 --data coco128.yaml --weights yolov5s.pt
 ```
 
 That's it! Comet will automatically log your hyperparameters, command line arguments, training and validation metrics. You can visualize and analyze your runs in the Comet UI
@@ -107,7 +107,7 @@ export COMET_LOG_PREDICTIONS=true # Set this to false to disable logging model p
 Logging Models to Comet is disabled by default. To enable it, pass the `save-period` argument to the training script. This will save the logged checkpoints to Comet based on the interval value provided by `save-period`
 
 ```shell
-python train.py \
+python -3-train.py \
 --img 640 \
 --batch 16 \
 --epochs 5 \
@@ -127,7 +127,7 @@ You can control the frequency of logged predictions and the associated images by
 Here is an [example project using the Panel](https://www.comet.com/examples/comet-example-yolov5?shareable=YcwMiJaZSXfcEXpGOHDD12vA1&utm_source=yolov5&utm_medium=partner&utm_campaign=partner_yolov5_2022&utm_content=github)
 
 ```shell
-python train.py \
+python -3-train.py \
 --img 640 \
 --batch 16 \
 --epochs 5 \
@@ -141,7 +141,7 @@ python train.py \
 When logging predictions from YOLOv5, Comet will log the images associated with each set of predictions. By default a maximum of 100 validation images are logged. You can increase or decrease this number using the `COMET_MAX_IMAGE_UPLOADS` environment variable.
 
 ```shell
-env COMET_MAX_IMAGE_UPLOADS=200 python train.py \
+env COMET_MAX_IMAGE_UPLOADS=200 python -3-train.py \
 --img 640 \
 --batch 16 \
 --epochs 5 \
@@ -155,7 +155,7 @@ env COMET_MAX_IMAGE_UPLOADS=200 python train.py \
 Use the `COMET_LOG_PER_CLASS_METRICS` environment variable to log mAP, [precision](https://www.ultralytics.com/glossary/precision), [recall](https://www.ultralytics.com/glossary/recall), f1 for each class.
 
 ```shell
-env COMET_LOG_PER_CLASS_METRICS=true python train.py \
+env COMET_LOG_PER_CLASS_METRICS=true python -3-train.py \
 --img 640 \
 --batch 16 \
 --epochs 5 \
@@ -170,7 +170,7 @@ If you would like to store your data using [Comet Artifacts](https://www.comet.c
 The dataset be organized in the way described in the [YOLOv5 documentation](train_custom_data.md). The dataset config `yaml` file must follow the same format as that of the `coco128.yaml` file.
 
 ```shell
-python train.py \
+python -3-train.py \
 --img 640 \
 --batch 16 \
 --epochs 5 \
@@ -197,7 +197,7 @@ path: "comet://<workspace name>/<artifact name>:<artifact version or alias>"
 Then pass this file to your training script in the following way
 
 ```shell
-python train.py \
+python -3-train.py \
 --img 640 \
 --batch 16 \
 --epochs 5 \
@@ -216,7 +216,7 @@ The Run Path has the following format `comet://<your workspace name>/<your proje
 This will restore the run to its state before the interruption, which includes restoring the model from a checkpoint, restoring all hyperparameters and training arguments and downloading Comet dataset Artifacts if they were used in the original run. The resumed run will continue logging to the existing Experiment in the Comet UI
 
 ```shell
-python train.py \
+python -3-train.py \
 --resume "comet://<your run path>"
 ```
 

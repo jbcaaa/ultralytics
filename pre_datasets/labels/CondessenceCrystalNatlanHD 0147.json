@@ -1,0 +1,300 @@
+{
+  "version": "2.4.4",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          1095.0877192982457,
+          691.3157894736842
+        ],
+        [
+          1859.0,
+          691.3157894736842
+        ],
+        [
+          1859.0,
+          1079
+        ],
+        [
+          1095.0877192982457,
+          1079
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "StarPicking",
+      "score": null,
+      "points": [
+        [
+          1828.421052631579,
+          393.94736842105266
+        ],
+        [
+          1900.3508771929824,
+          393.94736842105266
+        ],
+        [
+          1900.3508771929824,
+          449.2105263157895
+        ],
+        [
+          1828.421052631579,
+          449.2105263157895
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          1721.4035087719296,
+          14.122807017543877
+        ],
+        [
+          1919.0,
+          14.122807017543877
+        ],
+        [
+          1919.0,
+          642
+        ],
+        [
+          1721.4035087719296,
+          642
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          1337.1929824561403,
+          192.19298245614036
+        ],
+        [
+          1467.8947368421052,
+          192.19298245614036
+        ],
+        [
+          1467.8947368421052,
+          412.36842105263156
+        ],
+        [
+          1337.1929824561403,
+          412.36842105263156
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          1035.438596491228,
+          401.8421052631579
+        ],
+        [
+          1124.9122807017543,
+          401.8421052631579
+        ],
+        [
+          1124.9122807017543,
+          514.1228070175438
+        ],
+        [
+          1035.438596491228,
+          514.1228070175438
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          1135.438596491228,
+          334.29824561403507
+        ],
+        [
+          1176.6666666666667,
+          334.29824561403507
+        ],
+        [
+          1176.6666666666667,
+          378.1578947368421
+        ],
+        [
+          1135.438596491228,
+          378.1578947368421
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "IronChunk",
+      "score": null,
+      "points": [
+        [
+          1448.5964912280701,
+          122.89473684210526
+        ],
+        [
+          1755.6140350877192,
+          122.89473684210526
+        ],
+        [
+          1755.6140350877192,
+          456.2280701754386
+        ],
+        [
+          1448.5964912280701,
+          456.2280701754386
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "IronChunk",
+      "score": null,
+      "points": [
+        [
+          1191.578947368421,
+          229.03508771929825
+        ],
+        [
+          1321.4035087719299,
+          229.03508771929825
+        ],
+        [
+          1321.4035087719299,
+          420.2631578947368
+        ],
+        [
+          1191.578947368421,
+          420.2631578947368
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "IronChunk",
+      "score": null,
+      "points": [
+        [
+          1082.8070175438597,
+          341.3157894736842
+        ],
+        [
+          1285.438596491228,
+          341.3157894736842
+        ],
+        [
+          1285.438596491228,
+          530.7894736842104
+        ],
+        [
+          1082.8070175438597,
+          530.7894736842104
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "IronChunk",
+      "score": null,
+      "points": [
+        [
+          853.859649122807,
+          499.2105263157895
+        ],
+        [
+          1240.0,
+          499.2105263157895
+        ],
+        [
+          1240.0,
+          1079
+        ],
+        [
+          853.859649122807,
+          1079
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "..\\images\\CondessenceCrystalNatlanHD 0147.jpg",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1920
+}

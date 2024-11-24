@@ -50,7 +50,7 @@ With the setup complete, you're ready to delve into training and inference with 
 
 ```bash
 # Train a model on your data
-python train.py
+python -3-train.py
 
 # Validate the trained model for Precision, Recall, and mAP
 python val.py --weights yolov5s.pt

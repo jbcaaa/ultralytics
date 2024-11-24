@@ -33,7 +33,7 @@ Larger models like YOLOv5x and [YOLOv5x6](https://github.com/ultralytics/yolov5/
 - **Start from Pretrained weights.** Recommended for small to medium-sized datasets (i.e. [VOC](https://github.com/ultralytics/yolov5/blob/master/data/VOC.yaml), [VisDrone](https://github.com/ultralytics/yolov5/blob/master/data/VisDrone.yaml), [GlobalWheat](https://github.com/ultralytics/yolov5/blob/master/data/GlobalWheat2020.yaml)). Pass the name of the model to the `--weights` argument. Models download automatically from the [latest YOLOv5 release](https://github.com/ultralytics/yolov5/releases).
 
 ```shell
-python train.py --data custom.yaml --weights yolov5s.pt
+python -3-train.py --data custom.yaml --weights yolov5s.pt
                                              yolov5m.pt
                                              yolov5l.pt
                                              yolov5x.pt
@@ -43,7 +43,7 @@ python train.py --data custom.yaml --weights yolov5s.pt
 - **Start from Scratch.** Recommended for large datasets (i.e. [COCO](https://github.com/ultralytics/yolov5/blob/master/data/coco.yaml), [Objects365](https://github.com/ultralytics/yolov5/blob/master/data/Objects365.yaml), [OIv6](https://storage.googleapis.com/openimages/web/index.html)). Pass the model architecture YAML you are interested in, along with an empty `--weights ''` argument:
 
 ```bash
-python train.py --data custom.yaml --weights '' --cfg yolov5s.yaml
+python -3-train.py --data custom.yaml --weights '' --cfg yolov5s.yaml
                                                       yolov5m.yaml
                                                       yolov5l.yaml
                                                       yolov5x.yaml

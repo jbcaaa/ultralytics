@@ -1,0 +1,97 @@
+{
+  "version": "2.4.4",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "StarPicking",
+      "score": null,
+      "points": [
+        [
+          1232.8070175438597,
+          913.2456140350876
+        ],
+        [
+          1260.877192982456,
+          913.2456140350876
+        ],
+        [
+          1260.877192982456,
+          939.5614035087718
+        ],
+        [
+          1232.8070175438597,
+          939.5614035087718
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          1052.1052631578948,
+          707.1052631578947
+        ],
+        [
+          1326.6666666666667,
+          707.1052631578947
+        ],
+        [
+          1326.6666666666667,
+          1000.0877192982455
+        ],
+        [
+          1052.1052631578948,
+          1000.0877192982455
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          738.9473684210527,
+          782.5438596491227
+        ],
+        [
+          1098.5964912280701,
+          782.5438596491227
+        ],
+        [
+          1098.5964912280701,
+          1078.157894736842
+        ],
+        [
+          738.9473684210527,
+          1078.157894736842
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "..\\images\\CondessenceCrystalNatlanHD 0172.jpg",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1920
+}

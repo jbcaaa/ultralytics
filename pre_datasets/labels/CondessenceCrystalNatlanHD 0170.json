@@ -1,0 +1,126 @@
+{
+  "version": "2.4.4",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "StarPicking",
+      "score": null,
+      "points": [
+        [
+          678.421052631579,
+          312.36842105263156
+        ],
+        [
+          735.438596491228,
+          312.36842105263156
+        ],
+        [
+          735.438596491228,
+          370.2631578947368
+        ],
+        [
+          678.421052631579,
+          370.2631578947368
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          524.0350877192983,
+          162.3684210526316
+        ],
+        [
+          802.1052631578948,
+          162.3684210526316
+        ],
+        [
+          802.1052631578948,
+          484.29824561403507
+        ],
+        [
+          524.0350877192983,
+          484.29824561403507
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "CondessenceCrystal",
+      "score": null,
+      "points": [
+        [
+          745.9649122807018,
+          301.8421052631579
+        ],
+        [
+          911.7543859649123,
+          301.8421052631579
+        ],
+        [
+          911.7543859649123,
+          493.0701754385965
+        ],
+        [
+          745.9649122807018,
+          493.0701754385965
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "IronChunk",
+      "score": null,
+      "points": [
+        [
+          724.9122807017544,
+          536.0526315789473
+        ],
+        [
+          855.6140350877193,
+          536.0526315789473
+        ],
+        [
+          855.6140350877193,
+          755.3508771929824
+        ],
+        [
+          724.9122807017544,
+          755.3508771929824
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "..\\images\\CondessenceCrystalNatlanHD 0170.jpg",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1920
+}
