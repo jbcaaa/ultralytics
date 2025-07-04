@@ -9,7 +9,10 @@ for a in paths:
     if not b:
         continue
     lists.append(int(b))
-maxxxx = max(lists)
+if not lists:
+    maxxxx = ''
+else:
+    maxxxx = max(lists)
 maxxxx = 'exp' + str(maxxxx)
 ret = os.path.join(org, maxxxx)
 try:
